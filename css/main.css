@@ -11,12 +11,12 @@
 /* ==========================================================================
    Global styles
    ========================================================================== */
-h1, h2, h3, h4, h5, h6, p, .btn, .navbar-nav a, .form-control, .list-inline, small, #services {
+h1, h2, h3, h4, h5, h6, p, .btn, .navbar-nav a, .form-control, .list-inline, small, #pricing {
   font-family: 'Montserrat', sans-serif;
 }
 
 p, .lead {
-  font-family: 'Raleway', sans-serif;
+	font-family: 'Raleway', sans-serif;
 }
 
 h1 {
@@ -81,12 +81,12 @@ a:hover, a:focus {
 }
 
 ::selection {
-  background: #231f20; /* Safari */
-  color: #FFFFFF;
+	background: #231f20; /* Safari */
+	color: #FFFFFF;
 }
 ::-moz-selection {
-  background: #231f20; /* Firefox */
-  color: #FFFFFF;
+	background: #231f20; /* Firefox */
+	color: #FFFFFF;
 }
 
 
@@ -223,7 +223,7 @@ a:hover, a:focus {
 }
 
 .purple-bg {
-  background: #6d3f96;
+	background: #6d3f96;
 }
 
 
@@ -279,7 +279,7 @@ a:hover, a:focus {
 }
 
 .logo img {
-  margin-top: 6px;
+	margin-top: 6px;
 }
 
 
@@ -360,19 +360,19 @@ header {
 }
 
 .pad-xl {
-  padding: 200px 0px;
+	padding: 200px 0px;
 }
 
 .pad-lg {
-  padding: 160px 0px;
+	padding: 160px 0px;
 }
 
 .pad-sm {
-  padding: 80px 0px;
+	padding: 80px 0px;
 }
 
 .pad-xs {
-  padding: 30px 0px;
+	padding: 30px 0px;
 }
 
 
@@ -387,23 +387,23 @@ header {
 }
 
 hr.line {
-  width: 100%;
-  border: 2px solid;
+	width: 100%;
+	border: 2px solid;
 }
 
 .purple {
-  border-color: #6d3f96;
-  color: #6d3f96;
+	border-color: #6d3f96;
+	color: #6d3f96;
 }
 
 .blue {
-  border-color: #70cbce;
-  color: #70cbce
+	border-color: #70cbce;
+	color: #70cbce
 }
 
 .yellow {
-  border-color: #fdc05d;
-  color: #fdc05d;
+	border-color: #fdc05d;
+	color: #fdc05d;
 }
 
 .iphone {
@@ -462,19 +462,19 @@ footer {
 
 
 
-/*---------------services Tables-------------------*/
+/*---------------Pricing Tables-------------------*/
 
 
-#services {
+#pricing {
   background: #70cbce;
 }
 
-.services-container {
+.pricing-container {
   padding-left: 0px;
   padding-right: 0px;
 }
 
-.services-table {
+.pricing-table {
   background: transparent;
   margin-bottom: 50px;
   margin-top: 0px;
@@ -483,7 +483,7 @@ footer {
   -o-transition: all 0.25s ease-in-out;
   transition: all 0.25s ease-in-out;
 }
-.services-table.active {
+.pricing-table.active {
   box-shadow: 0px 0px 12px rgba(41,46,50,0.6); 
   position: absolute;
   margin: auto;
@@ -492,7 +492,7 @@ footer {
   border-top-right-radius: 10px;
 }
 
-.services-table:hover {
+.pricing-table:hover {
   margin-top: -10px;
   -webkit-transition: all 0.25s ease-in-out;
   -moz-transition: all 0.25s ease-in-out;
@@ -500,7 +500,7 @@ footer {
   transition: all 0.25s ease-in-out;
 }
 
-.services-table li {
+.pricing-table li {
   padding-left: 20px;
   padding-right: 20px;
 }
@@ -523,7 +523,7 @@ footer {
 }
 
 
-.services-table:hover li.price  {
+.pricing-table:hover li.price  {
   background: #303236;
   -webkit-transition: all 0.85s ease-in-out;
   -moz-transition: all 0.85s ease-in-out;
@@ -564,12 +564,12 @@ footer {
 }
 
 .features.last a {
-  color: #70cbce;
-  font-size: 14px;
-  letter-spacing: 1px;
+	color: #70cbce;
+	font-size: 14px;
+	letter-spacing: 1px;
 }
 
-.services-container .btn {
+.pricing-container .btn {
     border-radius: 0;
 }
 
